@@ -1,7 +1,6 @@
 # Учебный проект «Барбершоп»
 
 * Студент: [Андрей Медведев](https://up.htmlacademy.ru/htmlcss/15/user/211971).
-* Наставник: [Александр Половников](https://up.htmlacademy.ru/htmlcss/15/user/8359).
 
 ---
 
