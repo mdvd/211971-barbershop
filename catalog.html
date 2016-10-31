@@ -8,8 +8,8 @@
         <header class="main-header">
             <div class="container">
                 <div class="logo">
-                    <a href="index.html"><img src="http://placehold.it/111x24" width="111" height="24"></a>
-                </logo>
+                    <a href="index.html"><img src="http://placehold.it/111x24" width="111" height="24" alt="Барбершоп «Бородинский»"></a>
+                </div>
                 <nav class="main-navigation">
                     <ul>
                         <li>
@@ -32,10 +32,10 @@
                 <div class="user-block">
                     <a class="login" href="#">Вход</a>
                 </div>
-            </div>
+              </div>
         </header>
         <main class="container">
-            <h1>СРЕДСТВА ДЛЯ УХОДА</h1>
+            <h1>средства для ухода</h1>
             <div class="breadcrumbs">
                 <a href="#">Главная</a>
                 <a href="#">Магазин</a>
@@ -43,56 +43,71 @@
             </div>
             <div class="filter-block">
                 <form class="filter-items">
-                    <h2>ПРОИЗВОДИТЕЛИ:</h2>
-                    <label><input type="checkbox" checked> Baxter of California</label><br>
-                    <label><input type="checkbox"> Mr Natty</label><br>
-                    <label><input type="checkbox" checked> Suavecito</label><br>
-                    <label><input type="checkbox"> Malin+Goetz</label><br>
-                    <label><input type="checkbox"> Murray’s</label><br>
-                    <label><input type="checkbox" checked> American Crew</label>
-                    <h2>ГРУППЫ ТОВАРОВ:</h2>
-                    <label><input type="radio" name="group" value="shaving"> Бритвенные  принадлежности</label><br>
-                    <label><input type="radio" name="group" value="care" checked> Средства для ухода</label><br>
-                    <label><input type="radio" name="group" value="accessories"> Аксессуары</label><br>
-                    <input type="submit" value="ПОКАЗАТЬ">
+                    <h2>производители:</h2>
+                    <input type="checkbox" checked id="filter-mfr-Baxter">
+                    <label for="filter-mfr-Baxter"> Baxter of California</label>
+                    <input type="checkbox" id="filter-mfr-Natty">
+                    <label for="filter-mfr-Natty"> Mr Natty</label>
+                    <input type="checkbox" checked id="filter-mfr-Suavecito">
+                    <label for="filter-mfr-Suavecito"> Suavecito</label>
+                    <input type="checkbox" id="filter-mfr-Malin">
+                    <label for="filter-mfr-Malin"> Malin+Goetz</label>
+                    <input type="checkbox" id="filter-mfr-Murray's">
+                    <label for="filter-mfr-Murray's"> Murray’s</label>
+                    <input type="checkbox" checked id="filter-mfr-American">
+                    <label for="filter-mfr-American"> American Crew</label>
+                    <h2>группы товаров:</h2>
+                    <input type="radio" name="group" value="shaving" id="filter-group-shaving">
+                    <label for="filter-group-shaving"> Бритвенные  принадлежности</label>
+                    <input type="radio" name="group" value="care" checked id="filter-group-care">
+                    <label for="filter-group-care"> Средства для ухода</label>
+                    <input type="radio" name="group" value="accessories" id="filter-group-accessories">
+                    <label for="filter-group-accessories"> Аксессуары</label>
+                    <button class="filter-btn" type="submit">показать</button>
                 </form>
             </div>
             <div class="items">
                 <article class="item">
-                    <img src="http://placehold.it/220x165" width="220" height="165">
-                    <P class="name-item">Набор для путешествий  «Baxter of California»</P>
+                    <a class="page-item" href="catalog-item.html">
+                    <img src="http://placehold.it/220x165" width="220" height="165" alt="Набор для путешествий  «Baxter of California»">
+                    <P class="name-item">Набор для путешествий  «Baxter of California»</P></a>
                     <p class="price-item">2 900 РУБ.</p>
-                    <a class="buy-item" href="catalog-item.html">Купить</a>
+                    <button class="buy-item" type="button">купить</button>
                 </article>
                 <article class="item">
-                    <img src="http://placehold.it/220x165" width="220" height="165">
-                    <P class="name-item">Увлажняющий кондиционер «Baxter of California»</P>
+                    <a class="page-item" href="#">
+                    <img src="http://placehold.it/220x165" width="220" height="165" alt="Увлажняющий кондиционер «Baxter of California»">
+                    <P class="name-item">Увлажняющий кондиционер «Baxter of California»</P></a>
                     <p class="price-item">750 РУБ.</p>
-                    <a class="buy-item" href="#">Купить</a>
+                    <button class="buy-item" type="button">купить</button>
                 </article>
                 <article class="item">
-                    <img src="http://placehold.it/220x165" width="220" height="165">
-                    <P class="name-item">Гель для волос «SUAVECITO»</P>
+                    <a class="page-item" href="#">
+                    <img src="http://placehold.it/220x165" width="220" height="165" alt="Гель для волос «Suavecito»">
+                    <P class="name-item">Гель для волос «Suavecito»</P></a>
                     <p class="price-item">290 РУБ.</p>
-                    <a class="buy-item" href="#">Купить</a>
+                    <button class="buy-item" type="button">купить</button>
                 </article>
                 <article class="item">
-                    <img src="http://placehold.it/220x165" width="220" height="165">
-                    <P class="name-item">Глина для укладки волос «American crew»</P>
+                    <a class="page-item" href="#">
+                    <img src="http://placehold.it/220x165" width="220" height="165" alt="Глина для укладки волос «American crew»">
+                    <P class="name-item">Глина для укладки волос «American crew»</P></a>
                     <p class="price-item">500 РУБ.</p>
-                    <a class="buy-item" href="#">Купить</a>
+                    <button class="buy-item" type="button">купить</button>
                 </article>
                 <article class="item">
-                    <img src="http://placehold.it/220x165" width="220" height="165">
-                    <P class="name-item">Гель для волос «AMERICAN CREW»</P>
+                    <a class="page-item" href="#">
+                    <img src="http://placehold.it/220x165" width="220" height="165" alt="Гель для волос «American crew»">
+                    <P class="name-item">Гель для волос «American crew»</P></a>
                     <p class="price-item">300 РУБ.</p>
-                    <a class="buy-item" href="#">Купить</a>
+                    <button class="buy-item" type="button">купить</button>
                 </article>
                 <article class="item">
-                    <img src="http://placehold.it/220x165" width="220" height="165">
-                    <P class="name-item">Набор для бритья «Baxter of California»</P>
+                    <a class="page-item" href="#">
+                    <img src="http://placehold.it/220x165" width="220" height="165" alt="Набор для бритья «Baxter of California»">
+                    <P class="name-item">Набор для бритья «Baxter of California»</P></a>
                     <p class="price-item">3 900 РУБ.</p>
-                    <a class="buy-item" href="#">Купить</a>
+                    <button class="buy-item" type="button">купить</button>
                 </article>
                 <div class="page-items">
                     <a class="page-item" href="#">1</a>
