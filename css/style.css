@@ -78,8 +78,6 @@ body {
 }
 
 .main-title {
-  min-height: 42px;
-  width: auto;
   margin-bottom: 8px;
 }
 
@@ -95,7 +93,6 @@ body {
 }
 
 .breadcrumbs {
-  width: auto;
   min-height: 20px;
   margin-bottom: 50px;
 }
@@ -124,12 +121,6 @@ body {
 .filter-block {
   float: left;
   width: 220px;
-  min-height: 600px;
-}
-
-.filter-items {
-  display: inline-block;
-  vertical-align: top;
 }
 
 .filter-items h3, ul {
@@ -139,7 +130,6 @@ body {
 .items {
   float: right;
   width: 700px;
-  min-height: 600px;
   font-size: 0;
   margin-bottom: 28px;
 }
@@ -163,14 +153,12 @@ body {
 }
 
 .price-block {
-  height: 43px;
   width: 187px;
   font-size: 14px;
 }
 
 .page-items {
   clear: both;
-  min-height: 43px;
   margin-left: 240px;
 }
 
@@ -230,9 +218,7 @@ body {
 .description {
   font-size: 14px;
   margin-top: 30px;
-  width: auto;
-  min-height: 160px;
-  margin-bottom: 17px;
+  margin-bottom: 35px;
 }
 
 .about-item .price-block {
@@ -242,7 +228,6 @@ body {
 .kit-item {
   margin-top: 65px;
   font-size: 14px;
-  min-height: 300px;
 }
 
 .price-content-left {
